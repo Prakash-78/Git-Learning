@@ -21,4 +21,5 @@
 
 ------------------------------------Additional and useful Commands-------------------------------------------------------
 ->git commit -am "Update message"   (Useful for updating the changes in already staged file)
--> git pull     (helps you to have the latest updates of the code )
+-> git pull     (helps you to have the latest updates of the code useful when working and collaborating with others)
+-> git push     (After pushing all the files using the usual command the path will be fixed after wards use this command to push the code)
