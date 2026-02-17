@@ -16,3 +16,9 @@
 -> git switch <branchname> (helps switching between branches)
 -> git branch -d <branchname> (deletes a branch)
 -> git branch -D <branchname> (force deletes a branch)
+
+
+
+------------------------------------Additional and useful Commands-------------------------------------------------------
+->git commit -am "Update message"   (Useful for updating the changes in already staged file)
+-> git pull     (helps you to have the latest updates of the code )
