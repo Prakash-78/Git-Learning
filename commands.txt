@@ -6,7 +6,7 @@
 ->git status (It will let you see the unstaged / new file created in the files )
 ->git branch -M main (Helps you to rename your branch name (-M -> forces move/rename and (min -> file name)))
 -> git remote add origin 'https://github.com/Prakash-78/Git-Learning.git' ("It helps the git to track in which repository we have to add and commit the files)
--> git push -u origin (→ Sets up tracking between local main and remote main.)
+-> git push -u origin main(→ Sets up tracking between local main and remote main.)
 
 
 # Branching helps you to work on new features and fixing bugs and errors without disturbing the main code 
@@ -17,7 +17,10 @@
 -> git branch -d <branchname> (deletes a branch)
 -> git branch -D <branchname> (force deletes a branch)
 
-
+# Diffferent staged/unstaged changes
+-> git diff HEAD    (difference all the staged and unstaged changes)
+->git diff --staged   (diff just staged changes)
+-> git diff     (Diff just unstaged changes)
 
 ------------------------------------Additional and useful Commands-------------------------------------------------------
 ->git commit -am "Update message"   (Useful for updating the changes in already staged file)
