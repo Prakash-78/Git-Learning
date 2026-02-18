@@ -22,6 +22,23 @@
 ->git diff --staged   (diff just staged changes)
 -> git diff     (Diff just unstaged changes)
 
+
+# Different between commit
+-> git show <commit>    ("Helps in identifying what are all the updates made to the files)
+->git diff <commit1> <commit2>    (Diff two commits)
+->git diff <commit> <file>  (Diff one file since a commit)
+->git diff <commit> --stat / ->git show <commit> --stat     (Show a summary of a diff)
+
+
+
+
+
+
+
+
+
+
+
 ------------------------------------Additional and useful Commands-------------------------------------------------------
 ->git commit -am "Update message"   (Useful for updating the changes in already staged file)
 -> git pull     (helps you to have the latest updates of the code useful when working and collaborating with others)
