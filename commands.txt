@@ -30,7 +30,9 @@
 ->git diff <commit> --stat / ->git show <commit> --stat     (Show a summary of a diff)
 
 
-
+# Discarding the changes
+git checkout <file> / git restore <file>    (delete unstaged changes to one file)
+git reset --hard    (Delete all the staged and unstaged changes)
 
 
 
@@ -43,3 +45,4 @@
 ->git commit -am "Update message"   (Useful for updating the changes in already staged file)
 -> git pull     (helps you to have the latest updates of the code useful when working and collaborating with others)
 -> git push     (After pushing all the files using the usual command the path will be fixed after wards use this command to push the code)
+-> git log main     (Helps to see the branch history)
