@@ -1,5 +1,6 @@
 # Commands to initialize and push the files to repository
 # Date 17/02/26
+-> git init     ("Creates local repositry in the local machine and tracks the history of the our project changes")
 -> git init / git clone ("clone the repository from github)
 -> git add . / git add <filename>   (First one let'syou to commit all the unstaged/newly created files & second one let's you to add certain file)
 -> git commit -m "Message" (Committing/moving the completed files to staging)
